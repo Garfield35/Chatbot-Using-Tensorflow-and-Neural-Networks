@@ -2,7 +2,7 @@
 
 A chatbot implemented in TensorFlow based on the new sequence to sequence (NMT) model, with certain rules seamlessly integrated.
 
-The core of ChatLearner (Papaya) was built on the NMT model(https://github.com/tensorflow/nmt), which has been adapted here to fit the needs of a chatbot. Due to the changes made on tf.data API in TensorFlow 1.4, this ChatLearner version only supports TF version 1.4 and later.
+The core of ChatLearner (Papaya) was built on the NMT model, which has been adapted here to fit the needs of a chatbot. Due to the changes made on tf.data API in TensorFlow 1.4, this ChatLearner version only supports TF version 1.4 and later.
 
 Before starting everything else, you may want to get a feeling of how ChatLearner behaves. Take a look at the sample conversation in Data/Test, or if you prefer to try my trained model, download it (https://drive.google.com/file/d/1mVWFScBHFeA7oVxQzWb8QbKfTi3TToUr/view?usp=sharing). Unzip the downloaded .rar file, and copy the Result folder into the Data folder under your project root. A vocab.txt file is also included in case I update it without updating the trained model in the future.
 
